@@ -7,7 +7,7 @@ vars:
 
 
 includes:
-  terragrunt: .taskfiles/Terraform/Taskfile.yaml
+  terragrunt: .taskfiles/Terragrunt/Taskfile.yaml
 
 dotenv: ['.envrc']
 tasks:
