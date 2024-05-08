@@ -1,0 +1,19 @@
+---
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+version: "3"
+
+vars:
+  TERRAGRUNT_DIR: infrastracture/${ENV}
+
+
+includes:
+  terragrunt: .taskfiles/Terraform/Taskfile.yaml
+
+dotenv: ['.envrc']
+tasks:
+  default:
+    silent: true
+    cmd: task -l
+    preconditions:
+      - sh: test -f devbox
+        msg: "Please install devbox to run this task" 

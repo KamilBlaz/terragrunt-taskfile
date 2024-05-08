@@ -1,0 +1,101 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "go-task@3.35.1": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#go-task",
+      "source": "devbox-search",
+      "version": "3.35.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8xlnzmvkpj03yw5xmsm6acz8w0rd3cr7-go-task-3.35.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8xlnzmvkpj03yw5xmsm6acz8w0rd3cr7-go-task-3.35.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n0gjrdfrjj5pxirp3v6w9qdw3r8d076r-go-task-3.35.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n0gjrdfrjj5pxirp3v6w9qdw3r8d076r-go-task-3.35.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9a8myn2zjl17ws0h7pgw210mwvgd6dm8-go-task-3.35.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9a8myn2zjl17ws0h7pgw210mwvgd6dm8-go-task-3.35.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1xb7vmm16bhlq12lk1q3fhkcypv2p9kb-go-task-3.35.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1xb7vmm16bhlq12lk1q3fhkcypv2p9kb-go-task-3.35.1"
+        }
+      }
+    },
+    "terragrunt@0.55.20": {
+      "last_modified": "2024-04-02T02:53:36Z",
+      "resolved": "github:NixOS/nixpkgs/080a4a27f206d07724b88da096e27ef63401a504#terragrunt",
+      "source": "devbox-search",
+      "version": "0.55.20",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hsgbhb3plr1alylq0mpq0m4izv57qrr4-terragrunt-0.55.20",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hsgbhb3plr1alylq0mpq0m4izv57qrr4-terragrunt-0.55.20"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ixc9npkwscqinnibviv5m5qf2a5njla3-terragrunt-0.55.20",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ixc9npkwscqinnibviv5m5qf2a5njla3-terragrunt-0.55.20"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5xl4s7wzix726s2h5vgqilaf6kyxy5h5-terragrunt-0.55.20",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5xl4s7wzix726s2h5vgqilaf6kyxy5h5-terragrunt-0.55.20"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vmlralyryn0qc79gdwmx46kr54w684ar-terragrunt-0.55.20",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vmlralyryn0qc79gdwmx46kr54w684ar-terragrunt-0.55.20"
+        }
+      }
+    }
+  }
+}
