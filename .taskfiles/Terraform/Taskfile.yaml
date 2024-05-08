@@ -1,0 +1,32 @@
+---
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+version: "3"
+
+tasks:
+  init:
+    desc: Initialize Terragrunt
+    cmd: devbox run terragrunt --terragrunt-working-dir {{.TERRAGRUNT_DIR}} run-all init
+    preconditions:
+      - sh: direnv allow
+        msg: Running direnv allow
+
+  plan:
+    desc: Plan Terragrunt
+    cmd: devbox run terragrunt --terragrunt-working-dir {{.TERRAGRUNT_DIR}} run-all  plan
+    preconditions:
+      - sh: direnv allow
+        msg: Running direnv allow
+
+  apply:
+    desc: Apply Terragrunt
+    cmd: devbox run terragrunt --terragrunt-working-dir {{.TERRAGRUNT_DIR}} run-all apply
+    preconditions:
+      - sh: direnv allow
+        msg: Running direnv allow
+        
+  destroy:
+    desc: Destroy Terragrunt
+    cmd: devbox run terragrunt --terragrunt-working-dir {{.TERRAGRUNT_DIR}} run-all destroy
+    preconditions:
+      - sh: direnv allow
+        msg: Running direnv allow
